@@ -4,7 +4,7 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:flutter_datetime_picker/src/datetime_picker_theme.dart';
+import 'package:flutter_datetime_picker/src/datetime_picker_theme.dart' hide DatePickerTheme; // 'DatePickerTheme' is imported from both 'package:flutter/src/material/date_picker_theme.dart' and 'package:flutter_datetime_picker/src/datetime_picker_theme.dart'.
 import 'package:flutter_datetime_picker/src/date_model.dart';
 import 'package:flutter_datetime_picker/src/i18n_model.dart';
 
